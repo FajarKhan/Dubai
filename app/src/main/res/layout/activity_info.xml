@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.dubai.InfoActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4c000000" />
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/img_back_arrow" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-black"
+            android:text="The box park"
+            android:textColor="@color/TextTitle"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="9sp"
+            android:text="Box is located on the Dubai-Al Ain Road (Route 66, just off the E611 highway). Its distinctive white dome is noticeable from afar, and there is a good amount of parking at the mall.  \n\nIt is open from 10am – 10pm, seven days a week. A lot of tourists make their way to this mall in order to avail of the advertised deals.  \n\n
+High-end designers and high street retailers sell their discounted wares at Dubai Outlet Mall. There is a Tommy Hilfiger outlet, a large outlet of Massimo Dutti, and you can find last season’s Burberry here.
+Shops offer 30 percent or more off regular priced clothing. Sometimes you’re left with clothing that only comes in very large or small sizes, and some clothing bears small damage. It is worth coming to Dubai Outlet Mall, but be prepared to hunt for your bargains."
+            android:textColor="#2d2e2e"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/button_background"
+            android:drawableLeft="@drawable/img_map"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="16dp"
+            android:text="Open in Google Maps"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+</ScrollView>

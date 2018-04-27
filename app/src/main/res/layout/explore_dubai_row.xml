@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_explore"
+    android:layout_width="200dp"
+    android:layout_height="237dp"
+    app:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_explore"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/TextSubTitle" />
+
+        <TextView
+            android:id="@+id/tv_explore_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
+            android:text="The beach walk"
+            android:textColor="@color/TextTitle"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_explore_sub_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="4sp"
+            android:maxLines="2"
+            android:text="Enjoy experiences in a hip &amp; off beat urban setting at …"
+            android:textColor="@color/TextSubTitle"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
